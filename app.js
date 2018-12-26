@@ -34,5 +34,6 @@ function getJokes(e) {
 
    xhr.send();
 
+   // prevent default behavior
    e.preventDefault();
 }
